@@ -1,0 +1,20 @@
+{
+  "name": "unit-testing-practice",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baqar-abbas/unit-testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baqar-abbas/unit-testing-practice/issues"
+  },
+  "homepage": "https://github.com/baqar-abbas/unit-testing-practice#readme"
+}
