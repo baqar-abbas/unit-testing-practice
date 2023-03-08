@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "watch": "jest --watch *.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/baqar-abbas/unit-testing-practice/issues"
   },
-  "homepage": "https://github.com/baqar-abbas/unit-testing-practice#readme"
+  "homepage": "https://github.com/baqar-abbas/unit-testing-practice#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
